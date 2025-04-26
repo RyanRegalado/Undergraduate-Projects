@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      body {
+        font-family: Calibri, sans-serif;
+        padding: 24px;
+        background-color: #f3f3f3;
+        text-align: center
+      }
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Find Synonyms</h1>
+    <button onclick="google.script.run.main()">Synonyt!</button>
+  </body>
+
+  <body>
+    <p id = "output"></p>
+    <script src="Main.gs"></script>
+</html>
